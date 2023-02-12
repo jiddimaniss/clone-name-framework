@@ -6,7 +6,7 @@ public class demo_100 {
 	
 		String a="Santosh Jiddimani";
 		
-		String initial=""; 
+		//String initial=""; 
 		
 		for(int i=0;i<=a.length()-1;i++) 
 		{
@@ -14,15 +14,15 @@ public class demo_100 {
 			
 			if(ch>=65 && ch<=90) {
 				
-				initial=initial+ch;
-				
+			//	initial=initial+ch;
+				System.out.println(ch);
 			}
 			
 			
 		}
 		
-		
-		System.out.println(initial);
+
+		//System.out.println(initial);
 		
 		
 

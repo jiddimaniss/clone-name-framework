@@ -11,10 +11,11 @@ public class Count_Words_In_String {
 		System.out.println(len);*/
 		
 		int count=1;
+		
 		for(int i=0;i<=sen.length()-1;i++) {
 			
 			if(sen.charAt(i)==' '&&sen.charAt(i+1)!=' ') {
-				
+
 				count=count+1;
 			}
 		}

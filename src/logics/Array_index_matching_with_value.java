@@ -11,6 +11,7 @@ public class Array_index_matching_with_value {
 		for(int i=0;i<=size-1;i++) {
 			
 			if(array[i]==i) {
+				
 				System.out.print(i);
 			}
 		}

@@ -12,7 +12,7 @@ public class Prime_number {
 		int a=0;
 	
 	    
-		for(int i=1;i<=n;i++) {
+		for(int i=1;i<=n-1;i++) {
 			
 			if(n%i==0) {
 				
@@ -23,7 +23,7 @@ public class Prime_number {
 		
 		System.out.println("Given number is :" + n+"");
 		
-		if(a==0) {
+		if(a>0) {
 			
 			System.out.println("it is prime number");
 		}
