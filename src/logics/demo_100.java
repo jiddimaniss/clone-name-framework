@@ -23,7 +23,7 @@ public class demo_100 {
 		
 		
 		System.out.println(initial);
-		
+		System.out.println("hello");
 		
 
 	}
